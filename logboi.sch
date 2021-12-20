@@ -1438,7 +1438,7 @@ U 1 1 61BE6A8E
 P 5200 3250
 F 0 "K56" H 5200 3483 60  0000 C CNN
 F 1 "KEYSW" H 5200 3150 60  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5200 3250 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 5200 3250 60  0001 C CNN
 F 3 "" H 5200 3250 60  0000 C CNN
 	1    5200 3250
 	1    0    0    -1  
@@ -1824,7 +1824,7 @@ U 1 1 5E9F2AE3
 P 8750 5150
 F 0 "U1" V 8100 3750 50  0000 C CNN
 F 1 "ATmega32U4-AU" V 8200 3750 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 8750 5150 50  0001 C CIN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 8750 5150 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 8750 5150 50  0001 C CNN
 	1    8750 5150
 	0    -1   -1   0   
@@ -1842,41 +1842,39 @@ Col_9
 Text Label 10150 4550 1    50   ~ 0
 Col_8
 Text Label 8250 4550 1    50   ~ 0
-Col_0
-Text Label 8150 4550 1    50   ~ 0
-Col_1
-Text Label 7850 4550 1    50   ~ 0
-Col_2
-Text Label 7750 4550 1    50   ~ 0
-Col_3
-Text Label 7650 4550 1    50   ~ 0
-Col_4
-Text Label 9150 4550 1    50   ~ 0
-Col_5
-Text Label 9050 4550 1    50   ~ 0
-Col_6
-Text Label 8850 4550 1    50   ~ 0
 Col_7
+Text Label 8150 4550 1    50   ~ 0
+Col_6
+Text Label 7850 4550 1    50   ~ 0
+Col_5
+Text Label 7750 4550 1    50   ~ 0
+Col_4
+Text Label 7650 4550 1    50   ~ 0
+Col_3
+Text Label 9150 4550 1    50   ~ 0
+Col_2
+Text Label 9050 4550 1    50   ~ 0
+Col_1
 Text Label 8950 4550 1    50   ~ 0
-Col_14
-Text Label 8750 4550 1    50   ~ 0
-Col_15
-Text Label 8650 4550 1    50   ~ 0
-Col_16
-Text Label 8550 4550 1    50   ~ 0
-Col_17
-Text Label 8450 4550 1    50   ~ 0
-Row_0
-Text Label 7950 4550 1    50   ~ 0
-Row_1
-Text Label 7550 4550 1    50   ~ 0
-Row_2
-Text Label 7450 4550 1    50   ~ 0
 Row_3
-Text Label 7350 4550 1    50   ~ 0
+Text Label 8750 4550 1    50   ~ 0
+Row_2
+Text Label 8650 4550 1    50   ~ 0
+Row_1
+Text Label 8550 4550 1    50   ~ 0
+Row_0
+Text Label 8450 4550 1    50   ~ 0
 Row_4
-Text Label 7250 4550 1    50   ~ 0
+Text Label 7950 4550 1    50   ~ 0
 Row_5
+Text Label 7550 4550 1    50   ~ 0
+Col_17
+Text Label 7450 4550 1    50   ~ 0
+Col_16
+Text Label 7350 4550 1    50   ~ 0
+Col_15
+Text Label 7250 4550 1    50   ~ 0
+Col_14
 Text Label 9450 4550 1    50   ~ 0
 Row_6
 $Comp
@@ -1915,10 +1913,6 @@ $EndComp
 Wire Wire Line
 	8550 5750 8550 6050
 Wire Wire Line
-	7650 5750 7650 6700
-Wire Wire Line
-	7650 6700 7500 6700
-Wire Wire Line
 	7450 5750 7450 6050
 Wire Wire Line
 	7450 6050 6900 6050
@@ -1946,28 +1940,6 @@ F 1 "10k" V 6100 7200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6030 7200 50  0001 C CNN
 F 3 "~" H 6100 7200 50  0001 C CNN
 	1    6100 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5EA4204B
-P 6500 7250
-F 0 "SW1" H 6500 7450 50  0000 C CNN
-F 1 "Reset_SW" V 6500 7100 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 6500 7450 50  0001 C CNN
-F 3 "~" H 6500 7450 50  0001 C CNN
-	1    6500 7250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 5EA42E8A
-P 3750 6550
-F 0 "C1" H 3865 6596 50  0000 L CNN
-F 1 "0.1u" H 3865 6505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3788 6400 50  0001 C CNN
-F 3 "~" H 3750 6550 50  0001 C CNN
-	1    3750 6550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2008,7 +1980,7 @@ L Device:C C5
 U 1 1 5EA4413F
 P 5550 6550
 F 0 "C5" H 5665 6596 50  0000 L CNN
-F 1 "4.7u" H 5665 6505 50  0000 L CNN
+F 1 "10u" H 5665 6505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5588 6400 50  0001 C CNN
 F 3 "~" H 5550 6550 50  0001 C CNN
 	1    5550 6550
@@ -2018,7 +1990,6 @@ Wire Wire Line
 	3750 6400 4200 6400
 Wire Wire Line
 	3750 6700 4200 6700
-Connection ~ 3750 6400
 Connection ~ 4200 6400
 Wire Wire Line
 	4200 6400 4650 6400
@@ -2026,7 +1997,6 @@ Connection ~ 4650 6400
 Wire Wire Line
 	4650 6400 5100 6400
 Connection ~ 5100 6400
-Connection ~ 3750 6700
 Connection ~ 4200 6700
 Wire Wire Line
 	4200 6700 4650 6700
@@ -2064,25 +2034,11 @@ F 3 "~" H 6900 7050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 7300 6900 7200
-$Comp
-L Device:Crystal Y1
-U 1 1 5EA49BA6
-P 7200 6700
-F 0 "Y1" V 7154 6831 50  0000 L CNN
-F 1 "Crystal" V 7245 6831 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 7200 6700 50  0001 C CNN
-F 3 "~" H 7200 6700 50  0001 C CNN
-	1    7200 6700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7050 6700 6900 6700
 Connection ~ 6900 6700
 Wire Wire Line
 	6900 6700 6900 6050
-Wire Wire Line
-	7350 6700 7500 6700
-Connection ~ 7500 6700
 Text Label 6500 7050 1    50   ~ 0
 Reset
 Text Label 7250 5750 3    50   ~ 0
@@ -2295,19 +2251,6 @@ F 3 "" H 8550 6200 60  0000 C CNN
 	1    8550 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 6300 9200 6300
-$Comp
-L power:VCC #PWR0114
-U 1 1 6200AAE9
-P 7700 7100
-F 0 "#PWR0114" H 7700 6950 50  0001 C CNN
-F 1 "VCC" H 7715 7273 50  0000 C CNN
-F 2 "" H 7700 7100 50  0001 C CNN
-F 3 "" H 7700 7100 50  0001 C CNN
-	1    7700 7100
-	1    0    0    -1  
-$EndComp
 Connection ~ 9200 8000
 $Comp
 L power:GND #PWR0115
@@ -2321,17 +2264,14 @@ F 3 "" H 9200 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 6300 9200 7700
-Connection ~ 9200 7700
-Wire Wire Line
 	9200 8000 9200 7700
 $Comp
-L Connector:USB_C_Plug_USB2.0 P1
+L Connector:USB_C_Receptacle_USB2.0 P1
 U 1 1 61FCF0D7
 P 8300 7700
 F 0 "P1" V 8453 8430 50  0000 L CNN
 F 1 "USB_C_Plug_USB2.0" V 8362 8430 50  0000 L CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 8450 7700 50  0001 C CNN
+F 2 "Type-C:USB_C_GCT_USB4085" H 8450 7700 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8450 7700 50  0001 C CNN
 	1    8300 7700
 	0    -1   -1   0   
@@ -2375,7 +2315,7 @@ L Device:R R5
 U 1 1 6204F04B
 P 7900 6950
 F 0 "R5" H 7850 7100 50  0000 C CNN
-F 1 "10k" V 7900 6950 50  0000 C CNN
+F 1 "5.1k" V 7900 6950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7830 6950 50  0001 C CNN
 F 3 "~" H 7900 6950 50  0001 C CNN
 	1    7900 6950
@@ -2392,13 +2332,6 @@ F 3 "" H 7900 6800 50  0001 C CNN
 	1    7900 6800
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8600 6300 8600 6350
-Wire Wire Line
-	8550 6350 8600 6350
-Connection ~ 8600 6350
-Wire Wire Line
-	8600 6350 8650 6350
 $Comp
 L Switch:SW_Push K22
 U 1 1 61BE6A9B
@@ -2410,4 +2343,105 @@ F 3 "" H 4300 2250 60  0000 C CNN
 	1    4300 2250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8500 7100 8400 7100
+Connection ~ 8400 7100
+Wire Wire Line
+	8300 7100 8200 7100
+Connection ~ 8200 7100
+$Comp
+L power:GND #PWR0107
+U 1 1 61C2DEA4
+P 8000 6800
+F 0 "#PWR0107" H 8000 6550 50  0001 C CNN
+F 1 "GND" H 8005 6627 50  0000 C CNN
+F 2 "" H 8000 6800 50  0001 C CNN
+F 3 "" H 8000 6800 50  0001 C CNN
+	1    8000 6800
+	-1   0    0    1   
+$EndComp
+Text Label 8850 4550 1    50   ~ 0
+Col_0
+Wire Wire Line
+	8550 6350 9200 6350
+Wire Wire Line
+	9200 6350 9200 7700
+Connection ~ 9200 7700
+$Comp
+L Device:R R6
+U 1 1 61C2DE9E
+P 8000 6950
+F 0 "R6" H 7950 7100 50  0000 C CNN
+F 1 "5.1k" V 8000 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7930 6950 50  0001 C CNN
+F 3 "~" H 8000 6950 50  0001 C CNN
+	1    8000 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 6700 7500 6700
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5EA49BA6
+P 7200 6700
+F 0 "Y1" V 7154 6831 50  0000 L CNN
+F 1 "Crystal" V 7245 6831 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 7200 6700 50  0001 C CNN
+F 3 "~" H 7200 6700 50  0001 C CNN
+	1    7200 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 6500 7400 6500
+Wire Wire Line
+	7400 6500 7400 6900
+Wire Wire Line
+	7400 6900 7200 6900
+Wire Wire Line
+	7200 6900 7200 7300
+Connection ~ 7200 6900
+Wire Wire Line
+	6500 7050 6700 7050
+Connection ~ 6500 7050
+$Comp
+L Switch:SW_Push_Dual SW1
+U 1 1 5EA4204B
+P 6500 7250
+F 0 "SW1" H 6500 7450 50  0000 C CNN
+F 1 "Reset_SW" V 6500 7100 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 6500 7450 50  0001 C CNN
+F 3 "~" H 6500 7450 50  0001 C CNN
+	1    6500 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 7450 6500 7450
+Connection ~ 6500 7450
+Connection ~ 7500 6700
+$Comp
+L Device:Polyfuse F?
+U 1 1 61D57E62
+P 7700 6950
+F 0 "F?" H 7788 6996 50  0000 L CNN
+F 1 "Polyfuse" H 7788 6905 50  0000 L CNN
+F 2 "" H 7750 6750 50  0001 L CNN
+F 3 "~" H 7700 6950 50  0001 C CNN
+	1    7700 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 6200AAE9
+P 7700 6800
+F 0 "#PWR0114" H 7700 6650 50  0001 C CNN
+F 1 "VCC" H 7715 6973 50  0000 C CNN
+F 2 "" H 7700 6800 50  0001 C CNN
+F 3 "" H 7700 6800 50  0001 C CNN
+	1    7700 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 6700 7500 6700
+Wire Wire Line
+	7650 5750 7650 6700
 $EndSCHEMATC
