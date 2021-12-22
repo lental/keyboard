@@ -2043,12 +2043,6 @@ Text Label 6500 7050 1    50   ~ 0
 Reset
 Text Label 7250 5750 3    50   ~ 0
 Reset
-Text Label 10250 6700 2    50   ~ 0
-Row_4
-Text Label 10750 6700 0    50   ~ 0
-Row_3
-Text Label 10750 6600 0    50   ~ 0
-Row_2
 $Comp
 L power:GND #PWR0109
 U 1 1 6015E4D5
@@ -2059,17 +2053,6 @@ F 2 "" H 10250 6800 50  0001 C CNN
 F 3 "" H 10250 6800 50  0001 C CNN
 	1    10250 6800
 	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0112
-U 1 1 6015C011
-P 10250 6600
-F 0 "#PWR0112" H 10250 6450 50  0001 C CNN
-F 1 "VCC" V 10268 6727 50  0000 L CNN
-F 2 "" H 10250 6600 50  0001 C CNN
-F 3 "" H 10250 6600 50  0001 C CNN
-	1    10250 6600
-	0    -1   -1   0   
 $EndComp
 Text Label 10750 6800 0    50   ~ 0
 Reset
@@ -2444,4 +2427,39 @@ Wire Wire Line
 	7650 6700 7500 6700
 Wire Wire Line
 	7650 5750 7650 6700
+Wire Wire Line
+	7550 4550 7550 4050
+Wire Wire Line
+	7450 4550 7450 3850
+Wire Wire Line
+	7350 4550 7350 4000
+Wire Wire Line
+	7200 4000 7350 4000
+Wire Wire Line
+	7550 4050 7700 4050
+Wire Wire Line
+	7450 3850 7300 3850
+Text Label 7300 3850 0    50   ~ 0
+MOSI
+Text Label 7700 4050 0    50   ~ 0
+MISO
+Text Label 7200 4000 0    50   ~ 0
+SCLK
+Text Label 10250 6700 2    50   ~ 0
+MOSI
+$Comp
+L power:VCC #PWR0112
+U 1 1 6015C011
+P 10250 6600
+F 0 "#PWR0112" H 10250 6450 50  0001 C CNN
+F 1 "VCC" V 10268 6727 50  0000 L CNN
+F 2 "" H 10250 6600 50  0001 C CNN
+F 3 "" H 10250 6600 50  0001 C CNN
+	1    10250 6600
+	0    -1   -1   0   
+$EndComp
+Text Label 10750 6700 0    50   ~ 0
+SCLK
+Text Label 10750 6600 0    50   ~ 0
+MISO
 $EndSCHEMATC
