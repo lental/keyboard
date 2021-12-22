@@ -1,11 +1,11 @@
 Designator,Val,Package,Mid X, Mid Y,Rotation,Layer
 "C2","0.1u","C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",173.628050,-97.332800,270.000000,bottom
-"C3","0.1u","C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",165.135450,-78.765400,-0.000000,bottom
+"C3","0.1u","C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",165.135450,-78.765400,0.000000,bottom
 "C4","0.1u","C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",161.004250,-91.405600,270.000000,bottom
 "C5","10u","C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",174.177850,-77.774800,180.000000,bottom
 "C6","22p","C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",159.783100,-97.679400,270.000000,bottom
 "C7","22p","C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",166.590300,-97.781000,270.000000,bottom
-"C8","1u","C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",179.682250,-87.350600,-0.000000,bottom
+"C8","1u","C_0805_2012Metric_Pad1.15x1.40mm_HandSolder",179.682250,-87.350600,0.000000,bottom
 "D0","D","D_SOD-323F",21.473750,-33.553400,90.000000,bottom
 "D1","D","D_SOD-323F",40.523750,-33.553400,90.000000,bottom
 "D2","D","D_SOD-323F",59.573750,-33.553400,90.000000,bottom
@@ -81,8 +81,8 @@ Designator,Val,Package,Mid X, Mid Y,Rotation,Layer
 "R2","22R","R_0805_2012Metric_Pad1.15x1.40mm_HandSolder",348.608650,-29.328000,90.000000,bottom
 "R3","22R","R_0805_2012Metric_Pad1.15x1.40mm_HandSolder",350.589850,-29.302600,90.000000,bottom
 "R4","10k","R_0805_2012Metric_Pad1.15x1.40mm_HandSolder",162.172650,-80.400000,270.000000,bottom
-"R5","5.1k","R_0805_2012Metric_Pad1.15x1.40mm_HandSolder",338.313350,-23.164800,-0.000000,bottom
+"R5","5.1k","R_0805_2012Metric_Pad1.15x1.40mm_HandSolder",338.313350,-23.164800,0.000000,bottom
 "R6","5.1k","R_0805_2012Metric_Pad1.15x1.40mm_HandSolder",356.693950,-22.707600,180.000000,bottom
-"SW1","Reset_SW","SKQG-1155865",204.908250,-87.213000,-0.000000,bottom
+"SW1","Reset_SW","SKQG-1155865",204.908250,-87.213000,0.000000,bottom
 "U1","ATmega32U4-AU","QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm",170.122850,-86.918800,180.000000,bottom
-"Y1","Crystal","Crystal_SMD_3225-4Pin_3.2x2.5mm",163.169100,-97.702000,-0.000000,bottom
+"Y1","Crystal","Crystal_SMD_3225-4Pin_3.2x2.5mm",163.169100,-97.702000,0.000000,bottom
