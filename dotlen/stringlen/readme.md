@@ -1,7 +1,7 @@
 # string.len()
 
 
-Dotlen
+String.len()
 
 Make example for this keyboard (after setting up your build environment):
 
