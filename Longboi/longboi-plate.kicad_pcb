@@ -30,8 +30,8 @@
 
   (setup
     (pad_to_mask_clearance 0)
-    (aux_axis_origin 15.75875 20.32)
-    (grid_origin 15.75875 58.42)
+    (aux_axis_origin 19.353749 19.564999)
+    (grid_origin 19.353749 19.564999)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
