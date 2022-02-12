@@ -1,0 +1,6 @@
+**/fp-info-cache
+**/*-backups
+**/outputs
+**/*.gbr
+**/*-bak
+**/*.kicad_prl

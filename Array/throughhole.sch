@@ -1804,11 +1804,11 @@ F 3 "" H 8200 8100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-MU ATmega32U4
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
 U 1 1 5E9F2AE3
 P 6400 8000
-F 0 "ATmega32U4" V 5750 6600 50  0000 C CNN
-F 1 "ATmega32U4-AU" V 5850 6600 50  0000 C CNN
+F 0 "U1" V 5750 6600 50  0000 C CNN
+F 1 "ATmega32U4-MUR" V 5850 6600 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 6400 8000 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 6400 8000 50  0001 C CNN
 	1    6400 8000
@@ -2856,4 +2856,15 @@ Text GLabel 2250 1050 2    50   Input ~ 0
 Rotary_A
 Text GLabel 2250 850  2    50   Input ~ 0
 Rotary_B
+$Comp
+L Graphic:Array_Logo Array_Logo2
+U 1 1 61D3F8C5
+P 11150 6350
+F 0 "Array_Logo2" H 11100 6190 60  0001 C CNN
+F 1 "Array_Logo" H 11150 6560 60  0001 C CNN
+F 2 "Images:array_dotlen_logo_526" H 11150 6350 50  0001 C CNN
+F 3 "" H 11150 6350 50  0001 C CNN
+	1    11150 6350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
