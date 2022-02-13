@@ -65,8 +65,8 @@
       36,
       37
     ],
-    "visible_layers": "000feef_80000001",
-    "zone_display_mode": 1
+    "visible_layers": "000ffef_80000001",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "longboi.kicad_prl",
