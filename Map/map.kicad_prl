@@ -62,8 +62,8 @@
       35,
       36
     ],
-    "visible_layers": "ffe7def_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "fffffef_7ffffffe",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "map.kicad_prl",
