@@ -1,4 +1,4 @@
-# string.len()
+# List.len()
 
 
 List.len()
