@@ -20,7 +20,7 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED //TK
-#define PRODUCT_ID      0x0006
+#define PRODUCT_ID      0x0004
 #define DEVICE_VER      0x0007
 #define MANUFACTURER    DotLen
 #define PRODUCT         String
